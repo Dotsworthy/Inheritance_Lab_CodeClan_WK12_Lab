@@ -19,6 +19,19 @@ public class ManagerTest {
     }
 
     @Test
+    public void canSetName() {
+        manager.setName("Rafa");
+        assertEquals("Rafa", manager.getName());
+    }
+
+    @Test
+    public void cantSetNameToNull() {
+        manager.setName(null);
+        assertEquals("Steve", manager.getName());
+
+    }
+
+    @Test
     public void canGetNiNumber() {
         assertEquals(123, manager.getNINumber());
     }
