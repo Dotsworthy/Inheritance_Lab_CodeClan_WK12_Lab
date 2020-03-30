@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b63eaa28-b5a0-4806-9ce2-b7f61de894c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/techStaff/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/management/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techStaff/DatabaseAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,15 +43,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.DeveloperTest">
+  <component name="RunManager" selected="JUnit.DirectorTest">
+    <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,6 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest" />
+        <item itemvalue="JUnit.DatabaseAdminTest" />
         <item itemvalue="JUnit.DeveloperTest" />
         <item itemvalue="JUnit.ManagerTest" />
       </list>
@@ -96,26 +119,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Project_Structure" timestamp="1585573961517">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1585576162111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1585573961517" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585575999751">
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1585576162111" />
+    <state x="475" y="50" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585576283684">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585575999751" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585575999749">
+    <state x="475" y="50" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1585576283684" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585577056541">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585575999749" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585575999748">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585577056541" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585577056539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585575999748" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585575999750">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585577056539" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585577056538">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585575999750" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585577056538" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585577056540">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585577056540" />
     <state x="482" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1585575720538">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
