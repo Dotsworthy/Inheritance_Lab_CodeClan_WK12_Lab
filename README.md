@@ -1,4 +1,4 @@
-# Inheritance_Lab_CodeClan_WK12_Lab
+# Inheritance Lab CodeClan WK12 Lab
 CodeClan homework for week 12 Day 1 based on the following brief:
 
 ### Inheritance Lab.
